@@ -4,7 +4,7 @@ var thisNumb = 2;
 var simple_Numbers = [];
 while (thisNumb <= base)
 {
- if ((base % thisNumb) == 0) // "x" - Число, которое нам требуется разложить. Должно задаваться заранее.
+ if ((base % thisNumb) == 0) 
  {
   simple_Numbers[i] = thisNumb;
   i++;
